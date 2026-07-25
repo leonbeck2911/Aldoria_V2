@@ -1,0 +1,820 @@
+.codex-overlay{
+
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+
+    padding:30px 30px 30px 20px;
+
+    background:rgba(0,0,0,.70);
+    backdrop-filter:blur(4px);
+
+    z-index:9999;
+}
+
+/* BOOKMARK */
+
+.codex-bookmark{
+
+    position:fixed;
+
+    left: 6px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width: 80px;
+
+    height: 250px;
+
+    border:none;
+
+    background:#14181d;
+
+    color:white;
+
+    border-radius: 0 24px 24px 0;
+
+    cursor:pointer;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    box-shadow:8px 0 30px rgba(0,0,0,.4);
+
+    transition:
+        background .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+}
+
+.codex-bookmark:hover .bookmark-rune {
+
+    transform: scale(1.15);
+
+    color: #ffe7a3;
+
+    text-shadow:
+        0 0 12px rgba(255, 231, 163, .55);
+
+}
+
+.codex-bookmark:hover .bookmark-title {
+
+    color: #f4d48b;
+
+}
+
+.codex-bookmark:hover {
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.45);
+
+    border-left: 2px solid rgba(214,180,95,.7);
+
+    background:
+        linear-gradient(
+            180deg,
+            #1b2026,
+            #15191f
+        );
+
+}
+
+.bookmark-title {
+
+    color: var(--color-gold);
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    letter-spacing: 4px;
+
+    line-height: 22px;
+
+    text-align: center;
+
+    user-select: none;
+
+    transition:
+        color .25s ease;
+
+}
+
+.bookmark-rune {
+
+    font-size: 18px;
+
+    color: #e8d29a;
+
+    margin-bottom: 6px;
+
+    transition:
+        transform .25s ease,
+        color .25s ease;
+}
+
+.bookmark-leather {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+}
+
+/* BOOK */
+
+.codex-book{
+
+    position:relative;
+
+    width:auto;
+
+    max-width:none;
+
+    transform-origin:left center;
+    transform-style:preserve-3d;
+
+    filter:drop-shadow(0 30px 60px rgba(0,0,0,.55));
+}
+
+.codex-panel{
+
+    width: 700px;
+
+    height: 88vh;
+
+    max-height:900px;
+
+    /* min-height:700px; */
+
+    background:
+    linear-gradient(
+     180deg,
+     #1b1f24,
+     #111418
+    );
+    
+    display:flex;
+    flex-direction:column;
+
+    box-sizing:border-box;
+
+    border:2px solid rgba(185,150,75,.20);
+
+    border-radius:24px;
+
+    box-shadow:
+        0 35px 90px rgba(0,0,0,.65),
+        0 0 0 1px rgba(255,255,255,.02) inset;
+
+    padding:32px;
+
+    overflow: hidden;
+
+    margin-left:-4px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.codex-panel::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:14px;
+
+    right:-8px;
+
+    width:10px;
+
+    height:calc(100% - 28px);
+
+    border-radius:0 18px 18px 0;
+
+    background:
+
+    radial-gradient(
+    circle at top,
+    rgba(255,255,255,.03),
+    transparent 45%
+    ),
+
+    linear-gradient(
+    180deg,
+    #1c2025,
+    #111418
+    );
+
+    opacity:.18;
+}
+
+.codex-close{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#1B2026;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.codex-close:hover{
+
+    color:var(--color-gold);
+
+    transform:translateX(-3px);
+}
+
+.codex-header{
+
+    text-align:center;
+
+    margin-top:16px;
+}
+
+.logo-placeholder{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    border:2px solid rgba(198,163,93,.15);
+
+    margin-bottom:20px;
+}
+
+.codex-header h1{
+
+    font-size:14px;
+
+    letter-spacing:6px;
+
+    color:var(--color-gold);
+
+    margin-bottom:8px;
+}
+
+.codex-header h2{
+
+    font-size:36px;
+
+    margin:0;
+
+    color:white;
+}
+
+.codex-divider{
+
+    height:1px;
+
+    background:rgba(198,163,93,.15);
+
+    margin:28px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--color-gold);
+    letter-spacing: 2px;
+}
+
+.chapter-card {
+    width: 100%;
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(198,163,93,.12);
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: all .25s ease;
+    color: white;
+    text-align: left;
+}
+
+.chapter-card:hover {
+    border-color: rgba(212,180,95,.35);
+    background: rgba(255,255,255,.05);
+    box-shadow:
+        0 14px 35px rgba(0,0,0,.35);
+}
+
+.chapter-top {
+    display: flex;
+    align-items: center;
+}
+
+.chapter-icon {
+    font-size: 24px;
+    margin-right: 14px;
+}
+
+.chapter-top h3 {
+    flex: 1;
+    margin: 0;
+}
+
+.chapter-arrow {
+    opacity: .5;
+    transition: transform .25s ease;
+}
+
+.chapter-card:hover .chapter-arrow {
+    transform: translateX(6px);
+}
+
+.chapter-card p {
+    margin: 12px 0 0;
+    opacity: .75;
+    line-height: 1.5;
+}
+
+/* ==================================================
+   CHAPTER PAGE
+================================================== */
+
+.page-header {
+    text-align: center;
+    padding: 30px 0 18px;
+}
+
+.page-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.page-description {
+    max-width: 360px;
+    margin: 18px auto 0;
+    color: rgba(255,255,255,.72);
+    font-size: .98rem;
+    line-height: 1.8;
+}
+
+.codex-divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0 34px;
+    background: rgba(198,163,93,.15);
+}
+
+/* ==================================================
+   PAGE LINKS
+================================================== */
+
+.page-links{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    overflow:visible;
+}
+
+.page-link{
+
+    width:100%;
+
+    padding:22px 24px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(198,163,93,.12);
+
+    background:rgba(255,255,255,.025);
+
+    color:white;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    transition:
+        transform .25s,
+        border-color .25s,
+        background .25s,
+        box-shadow .25s;
+}
+
+.page-link:hover{
+
+    transform:translateY(-4px);
+
+    border-color:rgba(198,163,93,.4);
+
+    background:rgba(255,255,255,.05);
+
+    box-shadow:
+        0 14px 35px rgba(0,0,0,.35);
+}
+
+.page-link-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+}
+
+.page-link-icon{
+
+    font-size:1.4rem;
+}
+
+.page-link-text h3{
+
+    margin:0;
+
+    font-size:1.05rem;
+}
+
+.page-link-text p{
+
+    margin-top:6px;
+
+    color:rgba(255,255,255,.58);
+
+    font-size:.88rem;
+
+    line-height:1.4;
+}
+
+.page-link-arrow{
+
+    color:var(--color-gold);
+
+    opacity:.7;
+
+    transition:.25s;
+}
+
+.page-link:hover .page-link-arrow{
+
+    transform:translateX(8px);
+}
+
+/* ==========================================
+   PAGE ANIMATIONS
+========================================== */
+
+.codex-pages{
+
+    flex:1;
+
+    display:flex;
+
+    min-height:0;
+
+    overflow:hidden;
+
+}
+
+.codex-page{
+
+    width:100%;
+
+    height:100%;
+
+    overflow:hidden;
+
+    padding-bottom:0;
+
+    box-sizing:border-box;
+}
+
+.codex-book-wrapper{
+    display:flex;
+    align-items:stretch;
+    transform:translateX(-240px);
+}
+
+.codex-spine{
+
+    width:70px;
+
+    height:auto;
+
+    min-height:100%;
+
+    background:
+    linear-gradient(
+        180deg,
+        #3b2b18,
+        #24180d
+    );
+
+    border-radius:
+    18px 0 0 18px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    box-shadow:
+    inset -3px 0 8px rgba(0,0,0,.35);
+
+    align-self:stretch;
+
+    margin-right:-20px;
+
+    margin-right:-18px;
+
+    z-index:1;
+    
+}
+
+.spine-title{
+
+    writing-mode:vertical-rl;
+
+    transform:rotate(180deg);
+
+    color:#d9bf82;
+
+    font-size:12px;
+
+    letter-spacing:4px;
+
+    font-weight:bold;
+}
+
+.spine-gold-line{
+
+    width:18px;
+
+    height:2px;
+
+    background:#c9a861;
+}
+
+.codex-gold-corner{
+
+    position:absolute;
+
+    width:22px;
+
+    height:22px;
+
+    border:2px solid rgba(212,180,95,.55);
+}
+
+.tl{
+    top:16px;
+    left:16px;
+    border-right:none;
+    border-bottom:none;
+}
+
+.tr{
+    top:16px;
+    right:16px;
+    border-left:none;
+    border-bottom:none;
+}
+
+.bl{
+    bottom:8px;
+    left:8px;
+    border-right:none;
+    border-top:none;
+}
+
+.br{
+    bottom:8px;
+    right:8px;
+    border-left:none;
+    border-top:none;
+}
+
+.version{
+    position:absolute;
+
+    left:28px;
+
+    bottom:18px;
+
+    font-size:.8rem;
+
+    color:rgba(255,255,255,.45);
+}
+
+/* ===========================
+   ENCHANTMENTS PAGE
+=========================== */
+
+.coming-soon{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+    border:1px solid rgba(198,163,93,.15);
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.02);
+}
+
+.coming-soon h3{
+
+    margin:0;
+
+    color:var(--color-gold);
+
+    font-size:1.5rem;
+
+    letter-spacing:1px;
+}
+
+.coming-soon p{
+
+    margin-top:18px;
+
+    color:rgba(255,255,255,.65);
+
+    max-width:420px;
+
+    line-height:1.7;
+}
+
+/* ===========================
+   ENCHANTMENT SEARCH
+=========================== */
+
+.enchantments-search{
+
+    margin-top:30px;
+
+}
+
+.enchantments-search input{
+
+    width:100%;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(198,163,93,.2);
+
+    background:rgba(255,255,255,.03);
+
+    color:white;
+
+    font-size:1rem;
+
+    outline:none;
+
+    transition:.2s;
+}
+
+.enchantments-search input::placeholder{
+
+    color:rgba(255,255,255,.45);
+
+}
+
+.enchantments-search input:focus{
+
+    border-color:var(--color-gold);
+
+    box-shadow:0 0 10px rgba(198,163,93,.25);
+
+}
+
+/* ===========================
+   ENCHANTMENT LIST
+=========================== */
+
+.enchantments-list{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+.enchantment-card{
+
+    width:100%;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(198,163,93,.15);
+
+    border-radius:16px;
+
+    padding:18px 22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.enchantment-card:hover{
+
+    border-color:var(--color-gold);
+
+    transform:translateY(-2px);
+
+    background:rgba(198,163,93,.05);
+
+}
+
+.enchantment-card h3{
+
+    margin:0;
+
+    color:white;
+
+    font-size:1.1rem;
+
+}
+
+.enchantment-card p{
+
+    margin-top:6px;
+
+    color:rgba(255,255,255,.6);
+
+    font-size:.9rem;
+
+}
+
+.enchantment-rarity{
+
+    color:var(--color-gold);
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+

@@ -1,0 +1,3501 @@
+[
+  {
+    "id": "auto_reel",
+    "slug": "auto-reel",
+    "name": "Auto Reel",
+    "description": "Automatically reels in a hook on bite.",
+    "category": "Fishing",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "fishing"
+  },
+  {
+    "id": "bane_of_netherspawn",
+    "slug": "bane-of-netherspawn",
+    "name": "Bane of Netherspawn",
+    "description": "Inflicts more damage to nether mobs.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "blast_mining",
+    "slug": "blast-mining",
+    "name": "Blast Mining",
+    "description": "Has a chance to instantly mine nearby blocks with an explosion.",
+    "category": "Tools",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "blindness",
+    "slug": "blindness",
+    "name": "Blindness",
+    "description": "Has a chance to inflict Blindness on hit.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "bomber",
+    "slug": "bomber",
+    "name": "Bomber",
+    "description": "Fires explosive projectiles that detonate on impact.",
+    "category": "Ranged",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:power",
+      "minecraft:flame",
+      "minecraft:punch"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "bow"
+  },
+  {
+    "id": "cold_steel",
+    "slug": "cold-steel",
+    "name": "Cold Steel",
+    "description": "Attackers have a chance to be slowed when striking you.",
+    "category": "Armor",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "confusing_arrows",
+    "slug": "confusing-arrows",
+    "name": "Confusing Arrows",
+    "description": "Arrows have a chance to inflict Confusion.",
+    "category": "Ranged",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "confusion",
+    "slug": "confusion",
+    "name": "Confusion",
+    "description": "Has a chance to inflict Confusion on hit.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "cure",
+    "slug": "cure",
+    "name": "Cure",
+    "description": "Has a chance to cure Zombie Villagers and Zombified Piglins.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "curse_of_breaking",
+    "slug": "curse-of-breaking",
+    "name": "Curse of Breaking",
+    "description": "Causes the item to lose additional durability.",
+    "category": "Curse",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "breakable",
+        "name": "Breakable",
+        "icon": "breakable"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:unbreaking"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "curse_of_death",
+    "slug": "curse-of-death",
+    "name": "Curse of Death",
+    "description": "When killing players, you have a chance of dying too.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "curse_of_drowned",
+    "slug": "curse-of-drowned",
+    "name": "Curse of Drowned",
+    "description": "Occasionally reels in a Drowned instead of a catch.",
+    "category": "Fishing",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "curse_of_fragility",
+    "slug": "curse-of-fragility",
+    "name": "Curse of Fragility",
+    "description": "Prevents an item from being grindstoned or anviled.",
+    "category": "Utility",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "breakable",
+        "name": "Breakable",
+        "icon": "breakable"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "curse_of_mediocrity",
+    "slug": "curse-of-mediocrity",
+    "name": "Curse of Mediocrity",
+    "description": "Item drops have a chance to lose their enchantments.",
+    "category": "Utility",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tools_weapons",
+        "name": "Tools Weapons",
+        "icon": "tools_weapons"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "curse_of_misfortune",
+    "slug": "curse-of-misfortune",
+    "name": "Curse of Misfortune",
+    "description": "Blocks and mobs may drop nothing.",
+    "category": "Curse",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tools_weapons",
+        "name": "Tools Weapons",
+        "icon": "tools_weapons"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:looting",
+      "minecraft:fortune"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "cutter",
+    "slug": "cutter",
+    "name": "Cutter",
+    "description": "Deals increased damage with melee attacks.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "darkness_arrows",
+    "slug": "darkness-arrows",
+    "name": "Darkness Arrows",
+    "description": "Arrows have a chance to inflict Darkness.",
+    "category": "Ranged",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "darkness_cloak",
+    "slug": "darkness-cloak",
+    "name": "Darkness Cloak",
+    "description": "Attackers have a chance to be afflicted with Darkness.",
+    "category": "Armor",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "decapitator",
+    "slug": "decapitator",
+    "name": "Decapitator",
+    "description": "Has a chance to drop a player's or mob's head.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "double_catch",
+    "slug": "double-catch",
+    "name": "Double Catch",
+    "description": "Occasionally catches double the loot while fishing.",
+    "category": "Fishing",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "double_strike",
+    "slug": "double-strike",
+    "name": "Double Strike",
+    "description": "Has a chance to deal double damage.",
+    "category": "Weapons",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "dragon_heart",
+    "slug": "dragon-heart",
+    "name": "Dragon Heart",
+    "description": "Grants a permanent beneficial effect while equipped.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "dragonfire_arrows",
+    "slug": "dragonfire-arrows",
+    "name": "Dragonfire Arrows",
+    "description": "Arrows explode in a burst of dragon fire.",
+    "category": "Ranged",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "electrified_arrows",
+    "slug": "electrified-arrows",
+    "name": "Electrified Arrows",
+    "description": "Arrows deal additional lightning damage.",
+    "category": "Ranged",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "elemental_protection",
+    "slug": "elemental-protection",
+    "name": "Elemental Protection",
+    "description": "Reduces damage from magical and elemental sources.",
+    "category": "Armor",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 4,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "helmet",
+        "name": "Helmet",
+        "icon": "helmet"
+      },
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "leggings",
+        "name": "Leggings",
+        "icon": "leggings"
+      },
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "ender_bow",
+    "slug": "ender-bow",
+    "name": "Ender Bow",
+    "description": "Shoots ender pearls instead of arrows.",
+    "category": "Ranged",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:power",
+      "minecraft:flame",
+      "excellentenchants:bomber",
+      "minecraft:punch"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "exhaust",
+    "slug": "exhaust",
+    "name": "Exhaust",
+    "description": "Has a chance to inflict Hunger on hit.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 4,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "explosive_arrows",
+    "slug": "explosive-arrows",
+    "name": "Explosive Arrows",
+    "description": "Has a chance to fire explosive arrows.",
+    "category": "Ranged",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "fire_shield",
+    "slug": "fire-shield",
+    "name": "Fire Shield",
+    "description": "Ignites attackers when you are hit.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 4,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "flame_walker",
+    "slug": "flame-walker",
+    "name": "Flame Walker",
+    "description": "Ability to walk on lava, immunity to magma damage.",
+    "category": "Armor",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:frost_walker"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "flare",
+    "slug": "flare",
+    "name": "Flare",
+    "description": "Arrows can place a torch where they land.",
+    "category": "Ranged",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "ghast",
+    "slug": "ghast",
+    "name": "Ghast",
+    "description": "Shoots fireballs instead of arrows.",
+    "category": "Ranged",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:power",
+      "excellentenchants:ender_bow",
+      "minecraft:flame",
+      "excellentenchants:bomber",
+      "minecraft:punch"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "glassbreaker",
+    "slug": "glassbreaker",
+    "name": "Glass Breaker",
+    "description": "Breaks glass instantly",
+    "category": "Utility",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tool",
+        "name": "Tool",
+        "icon": "tool"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "hardened",
+    "slug": "hardened",
+    "name": "Hardened",
+    "description": "Has a chance to grant Resistance when damaged.",
+    "category": "Armor",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "haste",
+    "slug": "haste",
+    "name": "Haste",
+    "description": "Grants Haste while mining.",
+    "category": "Utility",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tool",
+        "name": "Tool",
+        "icon": "tool"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "hover",
+    "slug": "hover",
+    "name": "Hover",
+    "description": "Arrows have a chance to levitate their target.",
+    "category": "Ranged",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "ice_aspect",
+    "slug": "ice-aspect",
+    "name": "Ice Aspect",
+    "description": "Freezes enemies on hit.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "ice_shield",
+    "slug": "ice-shield",
+    "name": "Ice Shield",
+    "description": "Attacking enemies grants a temporary Ice Shield.",
+    "category": "Armor",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "infernus",
+    "slug": "infernus",
+    "name": "Infernus",
+    "description": "Thrown tridents ignite enemies on impact.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "trident",
+        "name": "Trident",
+        "icon": "trident"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "jumping",
+    "slug": "jumping",
+    "name": "Jumping",
+    "description": "Grants a permanent Jump Boost effect.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "kamikadze",
+    "slug": "kamikadze",
+    "name": "Kamikadze",
+    "description": "Has a chance to explode upon death.",
+    "category": "Armor",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "lightweight",
+    "slug": "lightweight",
+    "name": "Lightweight",
+    "description": "You can safely jump on turtle eggs, farmlands and big dripleaf.",
+    "category": "Armor",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "lingering",
+    "slug": "lingering",
+    "name": "Lingering",
+    "description": "Tipped arrows can create lingering potion clouds.",
+    "category": "Ranged",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "lucky_miner",
+    "slug": "lucky-miner",
+    "name": "Lucky Miner",
+    "description": "Grants bonus experience when mining ores.",
+    "category": "Tools",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "night_vision",
+    "slug": "night-vision",
+    "name": "Night Vision",
+    "description": "Grants permanent Night Vision.",
+    "category": "Armor",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "helmet",
+        "name": "Helmet",
+        "icon": "helmet"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "nimble",
+    "slug": "nimble",
+    "name": "Nimble",
+    "description": "Moves all entity's loot directly to your inventory.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "paralyze",
+    "slug": "paralyze",
+    "name": "Paralyze",
+    "description": "Has a chance to paralyze enemies on hit.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "poisoned_arrows",
+    "slug": "poisoned-arrows",
+    "name": "Poisoned Arrows",
+    "description": "Arrows have a chance to poison their target.",
+    "category": "Ranged",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "rage",
+    "slug": "rage",
+    "name": "Rage",
+    "description": "Has a chance to gain Strength after striking an enemy.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "rebound",
+    "slug": "rebound",
+    "name": "Rebound",
+    "description": "Effect of landing on a slime block.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:feather_falling"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "regrowth",
+    "slug": "regrowth",
+    "name": "Regrowth",
+    "description": "Restores health every few seconds.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 4,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "chestplate",
+        "name": "Chestplate",
+        "icon": "chestplate"
+      },
+      {
+        "id": "elytra",
+        "name": "Elytra",
+        "icon": "elytra"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "replanter",
+    "slug": "replanter",
+    "name": "Replanter",
+    "description": "Automatically replant crops on right click and when harvest.",
+    "category": "Tools",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "hoe",
+        "name": "Hoe",
+        "icon": "hoe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "restore",
+    "slug": "restore",
+    "name": "Restore",
+    "description": "Restores durability to your equipped item.",
+    "category": "Utility",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "breakable",
+        "name": "Breakable",
+        "icon": "breakable"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "river_master",
+    "slug": "river-master",
+    "name": "River Master",
+    "description": "Increases casting distance.",
+    "category": "Fishing",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "rocket",
+    "slug": "rocket",
+    "name": "Rocket",
+    "description": "Has a chance to launch enemies high into the air.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "saturation",
+    "slug": "saturation",
+    "name": "Saturation",
+    "description": "Restores food points every few seconds.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "helmet",
+        "name": "Helmet",
+        "icon": "helmet"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "seasoned_angler",
+    "slug": "seasoned-angler",
+    "name": "Seasoned Angler",
+    "description": "Increases experience gained from fishing.",
+    "category": "Fishing",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "silk_chest",
+    "slug": "silk-chest",
+    "name": "Silk Chest",
+    "description": "Drop chests and saves all its content.",
+    "category": "Weapons",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      },
+      {
+        "id": "shovel",
+        "name": "Shovel",
+        "icon": "shovel"
+      },
+      {
+        "id": "hoe",
+        "name": "Hoe",
+        "icon": "hoe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "silk_spawner",
+    "slug": "silk-spawner",
+    "name": "Silk Spawner",
+    "description": "Allows monster spawners to be harvested.",
+    "category": "Weapons",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      },
+      {
+        "id": "shovel",
+        "name": "Shovel",
+        "icon": "shovel"
+      },
+      {
+        "id": "hoe",
+        "name": "Hoe",
+        "icon": "hoe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "smelter",
+    "slug": "smelter",
+    "name": "Smelter",
+    "description": "Automatically smelts mined blocks.",
+    "category": "Utility",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tool",
+        "name": "Tool",
+        "icon": "tool"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:silk_touch",
+      "excellentenchants:silk_chest",
+      "excellentenchants:silk_spawner"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "sniper",
+    "slug": "sniper",
+    "name": "Sniper",
+    "description": "Deals increased damage to distant targets.",
+    "category": "Ranged",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "soulbound",
+    "slug": "soulbound",
+    "name": "Soulbound",
+    "description": "Keeps the item after death.",
+    "category": "Utility",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "breakable",
+        "name": "Breakable",
+        "icon": "breakable"
+      }
+    ],
+    "incompatibleWith": [
+      "minecraft:vanishing_curse"
+    ],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "speed",
+    "slug": "speed",
+    "name": "Speed",
+    "description": "Grants a permanent Speed effect.",
+    "category": "Armor",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "boots",
+        "name": "Boots",
+        "icon": "boots"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "stopping_force",
+    "slug": "stopping-force",
+    "name": "Stopping Force",
+    "description": "Greatly increases knockback dealt to enemies.",
+    "category": "Armor",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "leggings",
+        "name": "Leggings",
+        "icon": "leggings"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "survivalist",
+    "slug": "survivalist",
+    "name": "Survivalist",
+    "description": "Automatically cooks fish if what is caught is raw.",
+    "category": "Fishing",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "icon": "fishing_rod"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "swiper",
+    "slug": "swiper",
+    "name": "Swiper",
+    "description": "Grants additional experience when defeating players.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "telekinesis",
+    "slug": "telekinesis",
+    "name": "Telekinesis",
+    "description": "Automatically transfers mined blocks and drops into your inventory.",
+    "category": "Utility",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "tool",
+        "name": "Tool",
+        "icon": "tool"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "treasure"
+  },
+  {
+    "id": "temper",
+    "slug": "temper",
+    "name": "Temper",
+    "description": "Deals increased damage to injured enemies.",
+    "category": "Weapons",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "thrifty",
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "description": "Mobs have a chance to drop their spawn egg.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "thunder",
+    "slug": "thunder",
+    "name": "Thunder",
+    "description": "Deals additional lightning damage on hit.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "treefeller",
+    "slug": "treefeller",
+    "name": "Treefeller",
+    "description": "Cuts down an entire tree.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "tunnel",
+    "slug": "tunnel",
+    "name": "Tunnel",
+    "description": "Mines multiple blocks at once in a certain shape.",
+    "category": "Weapons",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      },
+      {
+        "id": "shovel",
+        "name": "Shovel",
+        "icon": "shovel"
+      },
+      {
+        "id": "hoe",
+        "name": "Hoe",
+        "icon": "hoe"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:blast_mining"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "vampire",
+    "slug": "vampire",
+    "name": "Vampire",
+    "description": "Steals health from enemies with each successful hit.",
+    "category": "Weapons",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "vampiric_arrows",
+    "slug": "vampiric-arrows",
+    "name": "Vampiric Arrows",
+    "description": "Arrows restore a portion of the damage dealt as health.",
+    "category": "Ranged",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "veinminer",
+    "slug": "veinminer",
+    "name": "Veinminer",
+    "description": "Mines up to blocks of the ore vein at once.",
+    "category": "Tools",
+    "rarity": "Epic",
+    "weight": 2,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "icon": "pickaxe"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:blast_mining",
+      "excellentenchants:tunnel"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "tool"
+  },
+  {
+    "id": "venom",
+    "slug": "venom",
+    "name": "Venom",
+    "description": "Applies a deadly poison effect to enemies.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "village_defender",
+    "slug": "village-defender",
+    "name": "Village Defender",
+    "description": "Inflicts more damage to all pillagers.",
+    "category": "Weapons",
+    "rarity": "Uncommon",
+    "weight": 10,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "water_breathing",
+    "slug": "water-breathing",
+    "name": "Water Breathing",
+    "description": "Grants permanent Water Breathing.",
+    "category": "Armor",
+    "rarity": "Legendary",
+    "weight": 1,
+    "maxLevel": 1,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "helmet",
+        "name": "Helmet",
+        "icon": "helmet"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": true,
+      "enchantingTable": false,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "armor"
+  },
+  {
+    "id": "wisdom",
+    "slug": "wisdom",
+    "name": "Wisdom",
+    "description": "Mobs drops x more XP.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 5,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      },
+      {
+        "value": 4,
+        "roman": "IV"
+      },
+      {
+        "value": 5,
+        "roman": "V"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "wither",
+    "slug": "wither",
+    "name": "Wither",
+    "description": "Has a chance to inflict Wither on hit.",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 2,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "sword",
+        "name": "Sword",
+        "icon": "sword"
+      },
+      {
+        "id": "axe",
+        "name": "Axe",
+        "icon": "axe"
+      }
+    ],
+    "incompatibleWith": [],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  },
+  {
+    "id": "withered_arrows",
+    "slug": "withered-arrows",
+    "name": "Withered Arrows",
+    "description": "Arrows have a chance to inflict Wither.",
+    "category": "Ranged",
+    "rarity": "Rare",
+    "weight": 5,
+    "maxLevel": 3,
+    "levels": [
+      {
+        "value": 1,
+        "roman": "I"
+      },
+      {
+        "value": 2,
+        "roman": "II"
+      },
+      {
+        "value": 3,
+        "roman": "III"
+      }
+    ],
+    "appliesTo": [
+      {
+        "id": "bow",
+        "name": "Bow",
+        "icon": "bow"
+      },
+      {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "icon": "crossbow"
+      }
+    ],
+    "incompatibleWith": [
+      "excellentenchants:ender_bow",
+      "excellentenchants:bomber",
+      "excellentenchants:ghast"
+    ],
+    "obtainFrom": {
+      "treasure": false,
+      "enchantingTable": true,
+      "villagers": true,
+      "loot": false,
+      "mobEquipment": false
+    },
+    "frame": "weapon"
+  }
+]

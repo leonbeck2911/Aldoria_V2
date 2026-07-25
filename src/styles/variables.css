@@ -1,0 +1,35 @@
+:root {
+
+    /* ===== COLORS ===== */
+
+    --color-background: #08090B;
+    --color-panel: #111418;
+    --color-panel-light: #171B20;
+
+    --color-border: rgba(255,255,255,.06);
+
+    --color-gold: #C6A35D;
+    --color-gold-light: #E2C37E;
+
+    --color-text: #F2F2F2;
+    --color-muted: #9B9B9B;
+
+    --overlay: rgba(0,0,0,.65);
+
+    /* ===== SPACING ===== */
+
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+
+    /* ===== RADIUS ===== */
+
+    --radius: 18px;
+
+    /* ===== ANIMATION ===== */
+
+    --transition-fast: .18s;
+    --transition-normal: .3s;
+}
