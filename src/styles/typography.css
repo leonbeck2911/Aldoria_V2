@@ -1,0 +1,42 @@
+@import "@fontsource/inter";
+@import "@fontsource/cinzel";
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+}
+
+h1,h2,h3{
+
+    font-family:"Cinzel",serif;
+
+    font-weight:600;
+
+}
+
+h1{
+
+    font-size:clamp(64px,8vw,120px);
+
+}
+
+h2{
+
+    font-size:clamp(42px,5vw,72px);
+
+}
+
+h3{
+
+    font-size:30px;
+
+}
+
+p{
+
+    line-height:1.8;
+
+    color:var(--text-secondary);
+
+}

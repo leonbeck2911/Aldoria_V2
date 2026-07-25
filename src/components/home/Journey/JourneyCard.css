@@ -1,0 +1,68 @@
+.journey-card{
+
+    background:#0F1728;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:22px;
+
+    padding:40px;
+
+    transition:.35s;
+
+}
+
+.journey-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#D8B15B;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.35);
+
+}
+
+.journey-icon{
+
+    font-size:54px;
+
+    margin-bottom:30px;
+
+}
+
+.journey-card h3{
+
+    color:white;
+
+    font-size:30px;
+
+    margin-bottom:18px;
+
+}
+
+.journey-card p{
+
+    color:#c9cfdb;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.journey-button{
+
+    color:#D8B15B;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+}
+
+.journey-button:hover{
+
+    color:white;
+
+}

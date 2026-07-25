@@ -1,0 +1,36 @@
+.home-background {
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+
+    position: relative;
+
+}
+
+.home-background::before {
+
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        rgba(5, 8, 18, 0.15),
+        rgba(5, 8, 18, 0.35),
+        rgba(5, 8, 18, 0.5)
+    );
+
+    pointer-events: none;
+
+}
+
+.home-background > * {
+
+    position: relative;
+    z-index: 1;
+
+}

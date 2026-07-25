@@ -1,35 +1,60 @@
-:root {
+:root{
 
-    /* ===== COLORS ===== */
+    /* ===== Backgrounds ===== */
 
-    --color-background: #08090B;
-    --color-panel: #111418;
-    --color-panel-light: #171B20;
+    --bg-primary:#0B0F16;
+    --bg-secondary:#131A24;
+    --bg-tertiary:#1B2432;
 
-    --color-border: rgba(255,255,255,.06);
+    /* ===== Brand ===== */
 
-    --color-gold: #C6A35D;
-    --color-gold-light: #E2C37E;
+    --primary:#2EA9F6;
+    --primary-light:#79DBFF;
+    --primary-dark:#1B6CA7;
 
-    --color-text: #F2F2F2;
-    --color-muted: #9B9B9B;
+    /* ===== Accent ===== */
 
-    --overlay: rgba(0,0,0,.65);
+    --gold:#E1C47A;
+    --gold-dark:#B48C3D;
 
-    /* ===== SPACING ===== */
+    /* ===== Text ===== */
 
-    --space-xs: 8px;
-    --space-sm: 16px;
-    --space-md: 24px;
-    --space-lg: 32px;
-    --space-xl: 48px;
+    --text-primary:#F7FBFF;
+    --text-secondary:#C4CEDB;
+    --text-muted:#8794A5;
 
-    /* ===== RADIUS ===== */
+    /* ===== Borders ===== */
 
-    --radius: 18px;
+    --border:rgba(255,255,255,.08);
+    --border-light:rgba(255,255,255,.18);
 
-    /* ===== ANIMATION ===== */
+    /* ===== Glass ===== */
 
-    --transition-fast: .18s;
-    --transition-normal: .3s;
+    --glass:rgba(18,27,39,.55);
+    --glass-hover:rgba(25,36,52,.75);
+
+    /* ===== Radius ===== */
+
+    --radius-sm:10px;
+    --radius-md:18px;
+    --radius-lg:28px;
+    --radius-xl:40px;
+
+    /* ===== Shadows ===== */
+
+    --shadow-card:0 10px 35px rgba(0,0,0,.35);
+
+    --shadow-glow:
+        0 0 25px rgba(46,169,246,.20);
+
+    /* ===== Layout ===== */
+
+    --container:1300px;
+
+    --section-spacing:180px;
+
+    /* ===== Animation ===== */
+
+    --transition:.3s ease;
+
 }

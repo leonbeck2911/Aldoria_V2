@@ -1,0 +1,27 @@
+.world{
+
+    position:relative;
+
+    width:100%;
+
+}
+
+.world-image{
+
+    width:100%;
+
+    display:block;
+
+    user-select:none;
+
+    pointer-events:none;
+
+}
+
+.world-content{
+
+    position:absolute;
+
+    inset:0;
+
+}

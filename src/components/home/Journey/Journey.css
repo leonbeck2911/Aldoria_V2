@@ -1,0 +1,61 @@
+.journey {
+
+    min-height: 100vh;
+
+    padding: 180px 40px;
+
+    background: transparent;
+
+}
+
+.journey-header{
+
+    text-align:center;
+
+    max-width:750px;
+
+    margin:auto;
+
+}
+
+.journey-pretitle{
+
+    color:#7DB6FF;
+
+    letter-spacing:5px;
+
+    margin-bottom:20px;
+
+}
+
+.journey-header h2{
+
+    color:white;
+
+    font-size:60px;
+
+    margin-bottom:25px;
+
+}
+
+.journey-header p{
+
+    color:#C8CDD8;
+
+    line-height:1.8;
+
+    font-size:20px;
+
+}
+
+.journey-grid{
+
+    margin-top:80px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}

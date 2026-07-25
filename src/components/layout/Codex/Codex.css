@@ -21,6 +21,8 @@
 
     position:fixed;
 
+    z-index: 10000;
+
     left: 6px;
 
     top:50%;

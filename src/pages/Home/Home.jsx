@@ -1,9 +1,11 @@
-import "./Home.css";
+import Hero from "../../components/home/Hero/Hero";
 
 export default function Home() {
+
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <Hero />
+        </>
     );
+
 }
