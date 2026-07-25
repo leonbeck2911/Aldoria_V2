@@ -1,77 +1,59 @@
 import "./ServerInfo.css";
-import "../HomeLayout.css";
 
-import InfoCard from "./InfoCard";
+const serverStats = [
+    {
+        title: "Version",
+        value: "Minecraft 1.21.11+"
+    },
+    {
+        title: "Gameplay",
+        value: "Survival MMORPG"
+    },
+    {
+        title: "Progression",
+        value: "Level 1 → 60"
+    },
+    {
+        title: "World",
+        value: "Custom Adventure"
+    },
+    {
+        title: "PvP",
+        value: "Optional"
+    },
+    {
+        title: "Classes",
+        value: "Unique Progression"
+    }
+];
 
 export default function ServerInfo() {
-
     return (
+        <section id="server" className="server-info">
 
-        <section className="home-section server-info">
+            <div className="server-header">
+                <p className="server-pretitle">
+                    ✦ SERVER INFORMATION ✦
+                </p>
 
-            <div className="home-container">
+                <h2>Everything You Need to Know</h2>
 
-                <div className="section-header">
+                <p className="server-description">
+                    Aldoria combines RPG progression, exploration and survival
+                    into one connected adventure. Here's a quick overview before
+                    you begin your journey.
+                </p>
+            </div>
 
-                    <p className="section-pretitle">
-                        ✦ SERVER INFORMATION ✦
-                    </p>
-
-                    <h2 className="section-title">
-                        Prepare For Your Adventure
-                    </h2>
-
-                    <p className="section-description">
-                        Everything you need before stepping into the world of Aldoria.
-                    </p>
-
-                </div>
-
-                <div className="server-grid">
-
-                    <InfoCard
-                        icon="👥"
-                        title="Adventurers"
-                        value="Coming Soon"
-                    />
-
-                    <InfoCard
-                        icon="🎮"
-                        title="Current Version"
-                        value="Minecraft 1.21.x"
-                    />
-
-                    <InfoCard
-                        icon="🌍"
-                        title="Server IP"
-                        value="Coming Soon"
-                    />
-
-                    <InfoCard
-                        icon="💬"
-                        title="Discord"
-                        value="Join our community"
-                        button="Join"
-                    />
-
-                    <InfoCard
-                        icon="🛒"
-                        title="Store"
-                        value="Opening Soon"
-                    />
-
-                    <InfoCard
-                        icon="🟢"
-                        title="Kingdom Status"
-                        value="Online"
-                    />
-
-                </div>
-
+            <div className="server-grid">
+                {serverStats.map((stat) => (
+                    <div className="server-card" key={stat.title}>
+                        <h3>{stat.title}</h3>
+                        <p>{stat.value}</p>
+                    </div>
+                ))}
             </div>
 
         </section>
-
     );
-
 }

@@ -4,7 +4,7 @@ import logo from "../../../assets/logo/aldoria-logo.png";
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section id="hero" className="hero">
 
             <div className="hero-overlay"></div>
 

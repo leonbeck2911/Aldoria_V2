@@ -8,7 +8,8 @@ export default function Navbar() {
 
             <div className="navbar-container">
 
-                <a href="/" className="navbar-logo">
+                {/* Logo - Scroll to Top */}
+                <a href="#hero" className="navbar-logo">
 
                     <img
                         src={logo}
@@ -19,15 +20,17 @@ export default function Navbar() {
 
                 <nav>
 
-                    <a href="/">Home</a>
+                    <a href="#journey">Journey</a>
 
-                    <a href="/codex">Codex</a>
+                    <a href="#world">World</a>
 
-                    <a href="/map">Map</a>
+                    <a href="#server">Server</a>
 
-                    <a href="/downloads">Downloads</a>
+                    <a href="#library">Library</a>
 
-                    <a href="/news">News</a>
+                    <a href="#updates">Updates</a>
+
+                    <a href="#map">Map</a>
 
                 </nav>
 

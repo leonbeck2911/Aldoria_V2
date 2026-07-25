@@ -1,27 +1,38 @@
 .navbar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
     background: rgba(8, 12, 18, 0.45);
-    backdrop-filter: blur(20px);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
 
     border-bottom: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 8px 30px rgba(0,0,0,.25);
 
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.35);
+    transition: background .3s ease;
 }
 
-.navbar-container{
+.navbar-container {
+    max-width: 1400px;
 
-    width:min(1300px,92%);
+    height: 80px;
 
-    margin:auto;
+    margin: auto;
 
-    height:90px;
+    display: flex;
 
-    display:flex;
+    align-items: center;
 
-    align-items:center;
+    justify-content: space-between;
 
-    justify-content:space-between;
-
+    padding: 0 40px;
 }
 
 .navbar-logo img {

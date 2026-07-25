@@ -6,7 +6,7 @@ export default function Journey() {
 
     return (
 
-        <section className="journey">
+        <section id="journey" className="journey">
 
             <div className="journey-header">
 

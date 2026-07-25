@@ -1,0 +1,67 @@
+.map-preview {
+    padding: 140px 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    scroll-margin-top: 100px; /* Adjust to match your navbar height */
+}
+
+.map-pretitle {
+    color: #7DB6FF;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.map-preview h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.map-description {
+    color: #C8CDD8;
+    line-height: 1.8;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.map-button {
+    display: inline-block;
+
+    padding: 16px 34px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: white;
+
+    border: 1px solid rgba(125,182,255,.35);
+
+    transition: .3s;
+}
+
+.map-button:hover {
+    background: rgba(125,182,255,.15);
+}
+
+.map-placeholder {
+
+    height: 400px;
+
+    border-radius: 20px;
+
+    background: rgba(12,18,30,.72);
+
+    border: 1px solid rgba(125,182,255,.15);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #C8CDD8;
+
+    font-size: 24px;
+}

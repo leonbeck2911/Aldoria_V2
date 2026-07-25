@@ -1,36 +1,42 @@
 .home-background {
-
-    width: 100%;
-    min-height: 100vh;
-
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-
     position: relative;
+    min-height: 100vh;
+    padding-top: 80px;
 
+    background-image: url("../../assets/backgrounds/world.webp");
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: cover;
 }
 
 .home-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 
+    background: rgba(6, 10, 16, 0.45);
+
+    pointer-events: none;
+}
+
+.home-background > * {
+    position: relative;
+    z-index: 1;
+}
+
+.home-background::before {
     content: "";
 
     position: absolute;
     inset: 0;
 
-    background: linear-gradient(
-        rgba(5, 8, 18, 0.15),
-        rgba(5, 8, 18, 0.35),
-        rgba(5, 8, 18, 0.5)
-    );
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(6,10,16,.15) 0%,
+            rgba(6,10,16,.30) 45%,
+            rgba(6,10,16,.45) 100%
+        );
 
     pointer-events: none;
-
-}
-
-.home-background > * {
-
-    position: relative;
-    z-index: 1;
-
 }

@@ -1,27 +1,92 @@
-.world{
+.world {
 
-    position:relative;
-
-    width:100%;
-
-}
-
-.world-image{
-
-    width:100%;
-
-    display:block;
-
-    user-select:none;
-
-    pointer-events:none;
+    padding: 140px 0;
+    scroll-margin-top: 100px; /* Adjust to match your navbar height */
 
 }
 
-.world-content{
+.world-header {
 
-    position:absolute;
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
 
-    inset:0;
+}
+
+.world-pretitle {
+
+    color: #7DB6FF;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+
+}
+
+.world h2 {
+
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+.world-description {
+
+    color: #C8CDD8;
+    font-size: 20px;
+    line-height: 1.8;
+
+}
+
+.world-grid {
+
+    margin-top: 90px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 35px;
+
+}
+
+.world-card {
+
+    background: rgba(12,18,30,.72);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(125,182,255,.15);
+
+    border-radius: 18px;
+
+    padding: 40px;
+
+    transition: .3s;
+
+}
+
+.world-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: rgba(125,182,255,.5);
+
+}
+
+.world-card h3 {
+
+    color: white;
+
+    font-size: 28px;
+
+    margin-bottom: 18px;
+
+}
+
+.world-card p {
+
+    color: #C8CDD8;
+
+    line-height: 1.8;
 
 }
