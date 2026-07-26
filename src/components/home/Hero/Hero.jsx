@@ -6,8 +6,6 @@ export default function Hero() {
     return (
         <section id="hero" className="hero">
 
-            <div className="hero-overlay"></div>
-
             <div className="hero-content">
 
                 <img
@@ -16,29 +14,30 @@ export default function Hero() {
                     className="hero-logo"
                 />
 
-                <p className="hero-pretitle">
-                    JOURNEY THROUGH
-                </p>
-
                 <h1>VIRETHIA</h1>
 
                 <p className="hero-description">
-                    A handcrafted Minecraft Survival RPG where
-                    exploration, progression and player freedom
-                    define every adventure.
+                    Forge your legend in a handcrafted Minecraft Survival RPG
+                    where exploration, professions, dangerous dungeons and
+                    forgotten kingdoms shape every adventure.
                 </p>
 
                 <div className="hero-buttons">
 
-                    <button className="primary">
-                        Begin Your Journey
-                    </button>
+                    <a href="#journey" className="primary-button">
+                        Start Adventure
+                    </a>
 
-                    <button className="secondary">
-                        Open Codex
-                    </button>
+                    <a href="#library" className="secondary-button">
+                        Browse Library
+                    </a>
 
                 </div>
+
+                <a href="#journey" className="scroll-indicator">
+                    <span>⌄</span>
+                    <p>Scroll</p>
+                </a>
 
             </div>
 

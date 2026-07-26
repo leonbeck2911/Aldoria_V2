@@ -1,64 +1,57 @@
-.library {
-    padding: 140px 0;
-    scroll-margin-top: 100px; /* Adjust to match your navbar height */
+.library{
+
+    padding: 140px 0 180px;
+
 }
 
-.library-header {
-    text-align: center;
-    max-width: 850px;
-    margin: auto;
+.library-header{
+
+    max-width:850px;
+
+    margin:0 auto;
+
+    text-align:center;
+
 }
 
-.library-pretitle {
-    color: #7DB6FF;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+.library-pretitle{
+
+    color:#D6B05F;
+
+    letter-spacing:4px;
+
+    margin-bottom:18px;
+
 }
 
-.library h2 {
-    color: white;
-    font-size: 60px;
-    margin-bottom: 25px;
+.library h2{
+
+    color:white;
+
+    font-size:54px;
+
+    margin-bottom:25px;
+
 }
 
-.library-description {
-    color: #C8CDD8;
-    font-size: 20px;
-    line-height: 1.8;
+.library-description{
+
+    color:#B7C0CC;
+
+    line-height:1.8;
+
 }
 
-.library-grid {
-    margin-top: 90px;
+.library-grid{
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
+    max-width:1120px;
 
-.library-card {
-    background: rgba(12,18,30,.72);
-    border: 1px solid rgba(125,182,255,.15);
-    backdrop-filter: blur(10px);
+    margin:55px auto 0;
 
-    border-radius: 18px;
+    display:grid;
 
-    padding: 35px;
+    grid-template-columns:repeat(3,1fr);
 
-    transition: .3s;
-}
+    gap:18px;
 
-.library-card:hover {
-    transform: translateY(-8px);
-    border-color: rgba(125,182,255,.5);
-}
-
-.library-card h3 {
-    color: white;
-    margin-bottom: 15px;
-    font-size: 28px;
-}
-
-.library-card p {
-    color: #C8CDD8;
-    line-height: 1.8;
 }

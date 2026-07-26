@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Enchantments.css";
 
+import BackToHome from "../../ui/BackToHome/BackToHome";
 import EnchantmentCard from "../../components/enchantments/EnchantmentCard";
 import enchantments from "../../data/enchantments.json";
 
@@ -42,6 +43,8 @@ export default function Enchantments() {
         <main className="library-page">
 
             <div className="library-overlay">
+
+                <BackToHome />
 
                 <section className="library-hero">
 

@@ -1,13 +1,15 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 import Navbar from "../ui/Navbar/Navbar";
-import Codex from "../components/layout/Codex/Codex";
 
 export default function MainLayout() {
+    const location = useLocation();
+
+    const isHomePage = location.pathname === "/";
+
     return (
         <>
-            <Navbar />
-            <Codex />
+            {isHomePage && <Navbar />}
 
             <main>
                 <Outlet />

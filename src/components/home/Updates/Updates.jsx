@@ -1,53 +1,62 @@
 import "./Updates.css";
+import updateData from "./updateData";
+import UpdateCard from "./UpdateCard";
 
-const updates = [
-    {
-        version: "Development",
-        title: "The World is Expanding",
-        description:
-            "New regions, structures and points of interest are continuously being added across Virethia."
-    },
-    {
-        version: "Progress",
-        title: "Classes & Progression",
-        description:
-            "The progression system is being built around meaningful choices, unique classes and long-term character growth."
-    },
-    {
-        version: "Coming Soon",
-        title: "Epic Boss Encounters",
-        description:
-            "Prepare for powerful boss fights with unique mechanics, valuable rewards and memorable battles."
-    }
-];
+export default function Update() {
 
-export default function Updates() {
     return (
-        <section id="updates" className="updates">
 
-            <div className="updates-header">
-                <p className="updates-pretitle">
-                    ✦ LATEST DEVELOPMENT ✦
-                </p>
+        <section id="updates" className="update">
 
-                <h2>Building the Future of Aldoria</h2>
+            <div className="update-container">
 
-                <p className="updates-description">
-                    Follow the latest progress as new features,
-                    systems and adventures are added to the world.
-                </p>
-            </div>
+                <div className="update-header">
 
-            <div className="updates-grid">
-                {updates.map((update) => (
-                    <div className="update-card" key={update.title}>
-                        <span>{update.version}</span>
-                        <h3>{update.title}</h3>
-                        <p>{update.description}</p>
-                    </div>
-                ))}
+                    <p className="update-pretitle">
+                        ✦ THE CHRONICLES ✦
+                    </p>
+
+                    <h2>
+                        The Chronicles of Aldoria
+                    </h2>
+
+                    <p className="update-description">
+                        Stay up to date with the latest kingdoms, bosses,
+                        events and development news from across the realm.
+                    </p>
+
+                </div>
+
+                <div className="update-grid">
+
+                    {updateData.map((update, index) => (
+
+                        <UpdateCard
+                            key={index}
+                            update={update}
+                        />
+
+                    ))}
+
+                </div>
+
+                <div className="update-footer">
+
+                    <a
+                        href="https://discord.gg/YOUR_INVITE"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="discord-button"
+                    >
+                        Read Full Announcements on Discord →
+                    </a>
+
+                </div>
+
             </div>
 
         </section>
+
     );
+
 }

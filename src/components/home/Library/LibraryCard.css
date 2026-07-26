@@ -1,0 +1,163 @@
+.library-card{
+
+    background:#18202D;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:24px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease,
+        background-color .35s ease;
+
+    cursor:pointer;
+
+    min-height:190px;
+
+}
+
+.library-card:hover{
+
+    transform:
+        translateY(-8px)
+        scale(1.02);
+
+    border-color:#D6B05F;
+
+    background:#1C2636;
+
+    box-shadow:
+        0 16px 35px rgba(0,0,0,.45),
+        0 0 25px rgba(214,176,95,.12);
+
+}
+
+.library-icon{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    border:1px solid rgba(214,176,95,.35);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#D6B05F;
+
+    margin-bottom:18px;
+
+    position:relative;
+
+    transition:.35s;
+
+}
+
+.library-icon::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-6px;
+
+    border-radius:50%;
+
+    background:rgba(214,176,95,.15);
+
+    filter:blur(12px);
+
+    opacity:0;
+
+    transition:.35s;
+
+}
+
+.library-card:hover .library-icon::before{
+
+    opacity:1;
+
+}
+
+.library-card:hover .library-icon{
+
+    transform:
+        scale(1.1)
+        rotate(-6deg);
+
+}
+
+.library-card h3{
+
+    color:white;
+
+    font-size:22px;
+
+    margin-bottom:10px;
+
+    line-height:1.2;
+
+}
+
+.library-card p{
+
+    color:#B7C0CC;
+
+    font-size:15px;
+
+    line-height:1.5;
+
+    flex:1;
+
+    margin-bottom:10px;
+
+}
+
+.library-card button{
+
+    margin-top:10px;
+
+    background:none;
+
+    border:none;
+
+    color:#D6B05F;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    transform:translateY(8px);
+
+    transition:.3s;
+
+}
+
+.library-card:hover button{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}

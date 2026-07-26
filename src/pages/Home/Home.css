@@ -1,27 +1,13 @@
 .home-background {
     position: relative;
     min-height: 100vh;
+
     padding-top: 80px;
 
     background-image: url("../../assets/backgrounds/world.webp");
-    background-repeat: repeat-y;
-    background-position: top center;
     background-size: cover;
-}
-
-.home-background::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    background: rgba(6, 10, 16, 0.45);
-
-    pointer-events: none;
-}
-
-.home-background > * {
-    position: relative;
-    z-index: 1;
+    background-position: center top;
+    background-repeat: repeat-y;
 }
 
 .home-background::before {
@@ -39,4 +25,13 @@
         );
 
     pointer-events: none;
+}
+
+.home-background > * {
+    position: relative;
+    z-index: 1;
+}
+
+.home-background > section {
+    padding: 120px 0;
 }

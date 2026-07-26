@@ -1,67 +1,56 @@
+import { useState } from "react";
 import "./Journey.css";
 
 import JourneyCard from "./JourneyCard";
+import { journeyData } from "./journeyData";
 
 export default function Journey() {
+    const [activeCard, setActiveCard] = useState(null);
+
+    const toggleCard = (id) => {
+        setActiveCard((current) =>
+            current === id ? null : id
+        );
+    };
 
     return (
+        <section className="journey" id="journey">
 
-        <section id="journey" className="journey">
+            <div className="journey-container">
 
-            <div className="journey-header">
+                <div className="journey-header">
 
-                <p className="journey-pretitle">
+                    <span className="journey-subtitle">
+                        Begin Your Journey
+                    </span>
 
-                    ✦ BEGIN YOUR JOURNEY ✦
+                    <h2 className="journey-title">
+                        Choose Your Path
+                    </h2>
 
-                </p>
+                    <p className="journey-description">
+                        Every great adventure starts with a choice.
+                        Learn the mechanics of Aldoria, explore the
+                        world of Virethia, or become part of our
+                        growing community.
+                    </p>
 
-                <h2>
+                </div>
 
-                    Choose Your Path
+                <div className="journey-grid">
 
-                </h2>
+                    {journeyData.map((card) => (
+                        <JourneyCard
+                            key={card.id}
+                            card={card}
+                            active={activeCard === card.id}
+                            onClick={() => toggleCard(card.id)}
+                        />
+                    ))}
 
-                <p>
-
-                    Every great adventure begins with knowledge.
-                    Explore the many paths that await you
-                    throughout Aldoria.
-
-                </p>
-
-            </div>
-
-            <div className="journey-grid">
-
-                <JourneyCard
-                    icon="📖"
-                    title="Arcane Archives"
-                    description="Discover every enchantment and magical blessing found throughout Aldoria."
-                    button="Explore"
-                    link="/enchantments"
-                />
-
-                <JourneyCard
-                    icon="👹"
-                    title="Legendary Bosses"
-                    description="Prepare for dangerous encounters and learn every boss mechanic."
-                    button="View Bosses"
-                    link="/bosses"
-                />
-
-                <JourneyCard
-                    icon="🏰"
-                    title="The Kingdom"
-                    description="Learn about the world, lore and citizens of Aldoria."
-                    button="Discover"
-                    link="/kingdom"
-                />
+                </div>
 
             </div>
-
         </section>
-
     );
-
 }

@@ -1,6 +1,5 @@
 .navbar {
     position: fixed;
-
     top: 0;
     left: 0;
 
@@ -8,116 +7,93 @@
 
     z-index: 1000;
 
-    background: rgba(8, 12, 18, 0.45);
+    background: rgba(8, 12, 18, 0.35);
 
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 
-    border-bottom: 1px solid rgba(255,255,255,.08);
-    box-shadow: 0 8px 30px rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
-    transition: background .3s ease;
+    transition: all .3s ease;
 }
 
 .navbar-container {
     max-width: 1400px;
 
-    height: 80px;
+    height: 64px;
 
-    margin: auto;
+    margin: 0 auto;
+
+    padding: 0 32px;
 
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.navbar-brand {
+    text-decoration: none;
+
+    font-family: "Cinzel", serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: .18rem;
+
+    color: #F4F0E7;
+
+    transition: .3s ease;
+}
+
+.navbar-brand:hover {
+    color: var(--primary-light);
+
+    text-shadow: 0 0 12px rgba(90,150,255,.35);
+}
+
+.navbar-nav {
+    display: flex;
     align-items: center;
 
-    justify-content: space-between;
-
-    padding: 0 40px;
+    gap: 28px;
 }
 
-.navbar-logo img {
-    height: 76px;
-    transition: var(--transition);
+.navbar-nav a {
+    position: relative;
+
+    text-decoration: none;
+
+    color: var(--text-secondary);
+
+    font-size: .95rem;
+    font-weight: 500;
+
+    transition: color .3s ease;
 }
 
-.navbar-logo img:hover{
-
-    transform:scale(1.05);
-
+.navbar-nav a:hover {
+    color: white;
 }
 
-nav{
+.navbar-nav a::after {
+    content: "";
 
-    display:flex;
+    position: absolute;
 
-    gap: 55px;
+    left: 50%;
+    bottom: -8px;
 
+    transform: translateX(-50%);
+
+    width: 0;
+    height: 1px;
+
+    background: var(--primary);
+
+    box-shadow: 0 0 8px rgba(90,150,255,.5);
+
+    transition: width .3s ease;
 }
 
-nav a{
-
-    color:var(--text-secondary);
-
-    text-decoration:none;
-
-    font-weight:500;
-
-    transition:.3s;
-
-    position:relative;
-
-}
-
-nav a:hover{
-    color: var(--primary-light);
-}
-nav a{
-    letter-spacing:.4px;
-}
-
-nav a::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-    bottom:-8px;
-
-    width:0;
-
-    height:2px;
-
-    background:var(--primary);
-
-    transition:.3s;
-
-}
-
-nav a:hover::after{
-
-    width:100%;
-
-}
-
-.discord-button{
-
-    background:var(--primary);
-
-    color:white;
-
-    padding:14px 26px;
-
-    border-radius:999px;
-
-    transition:.3s;
-
-}
-
-.discord-button:hover{
-
-    transform:translateY(-2px);
-
-    box-shadow:var(--shadow-glow);
-
+.navbar-nav a:hover::after {
+    width: 100%;
 }

@@ -5,7 +5,7 @@ import Journey from "../../components/home/Journey/Journey";
 
 // We'll add these one by one as we restore them.
 import World from "../../components/home/World/World";
-import ServerInfo from "../../components/home/ServerInfo/ServerInfo";
+import Server from "../../components/home/Server/Server";
 import Updates from "../../components/home/Updates/Updates";
 import Library from "../../components/home/Library/Library";
 import MapPreview from "../../components/home/MapPreview/MapPreview";
@@ -20,9 +20,9 @@ export default function Home() {
 
             <World />
 
-            <ServerInfo />
-
             <Library />
+
+            <Server />
 
             <Updates />
 

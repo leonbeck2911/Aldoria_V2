@@ -79,10 +79,10 @@ export default function Codex() {
 
     return (
         <>
-            {!isOpen && (
-                <CodexBookmark
-                    onOpen={openCodex}
-                />
+            {false && !isOpen && (
+              <CodexBookmark
+                onOpen={openCodex}
+              />
             )}
 
             <CodexBook

@@ -1,4 +1,5 @@
 import "./MapPreview.css";
+import bluemapPreview from "../../../assets/images/bluemap-preview.webp";
 
 export default function MapPreview() {
     return (
@@ -19,7 +20,7 @@ export default function MapPreview() {
                 </p>
 
                 <a
-                    href="#"
+                    href="http://88.211.228.198:9677/#playworld:29:0:215:759:0:0:0:1:flat"
                     className="map-button"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -31,9 +32,27 @@ export default function MapPreview() {
 
             <div className="map-image">
 
-                <div className="map-placeholder">
-                    Map Preview
-                </div>
+                <a
+                    href="http://88.211.228.198:9677/#playworld:29:0:215:759:0:0:0:1:flat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="map-card"
+                >
+
+                    <img
+                        src={bluemapPreview}
+                        alt="BlueMap Preview"
+                    />
+
+                    <div className="map-overlay">
+
+                        <h3>Explore Virethia</h3>
+
+                        <p>Open the live interactive map</p>
+
+                    </div>
+
+                </a>
 
             </div>
 
